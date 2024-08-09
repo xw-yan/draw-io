@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-08-09T11:42:18.256Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="j7vnx2q2AMQFNkKpalQy" version="24.6.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-08-09T11:49:21.827Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Safari/537.36" etag="yd7caj_vyjV0sJvzBmpc" version="24.6.0" type="github">
   <diagram name="第 1 页" id="VTAUhPHFjqV-iyoxelCj">
     <mxGraphModel dx="1195" dy="665" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,7 +31,7 @@
         <mxCell id="YY0MY4p-X_AZBxPH40uB-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YY0MY4p-X_AZBxPH40uB-10" target="YY0MY4p-X_AZBxPH40uB-27">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="YY0MY4p-X_AZBxPH40uB-10" value="DVFS?" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="YY0MY4p-X_AZBxPH40uB-10" value="DVFS模块?" style="shape=ext;double=1;whiteSpace=wrap;html=1;aspect=fixed;fontStyle=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="406" y="331" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="YY0MY4p-X_AZBxPH40uB-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YY0MY4p-X_AZBxPH40uB-18" target="YY0MY4p-X_AZBxPH40uB-33">
