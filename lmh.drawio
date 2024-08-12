@@ -8,7 +8,7 @@
           <mxGeometry x="14" y="408" width="520" height="401" as="geometry" />
         </mxCell>
         <mxCell id="YY0MY4p-X_AZBxPH40uB-55" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#E6D0DE;" parent="1" vertex="1">
-          <mxGeometry x="289" y="451" width="245" height="358" as="geometry" />
+          <mxGeometry x="273" y="451" width="261" height="358" as="geometry" />
         </mxCell>
         <mxCell id="YY0MY4p-X_AZBxPH40uB-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="YY0MY4p-X_AZBxPH40uB-1" target="YY0MY4p-X_AZBxPH40uB-18" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -46,14 +46,14 @@
         <mxCell id="YY0MY4p-X_AZBxPH40uB-22" value="启动一个10ms之后运行的delay_kworker" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="135" y="620" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="YY0MY4p-X_AZBxPH40uB-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="YY0MY4p-X_AZBxPH40uB-27" target="YY0MY4p-X_AZBxPH40uB-22" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
         <mxCell id="YY0MY4p-X_AZBxPH40uB-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="YY0MY4p-X_AZBxPH40uB-27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="50" y="530" as="targetPoint" />
             <mxPoint x="420" y="740" as="sourcePoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="dvzESr8WYS7K-upXrV9c-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YY0MY4p-X_AZBxPH40uB-27" target="dvzESr8WYS7K-upXrV9c-1">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="YY0MY4p-X_AZBxPH40uB-27" value="throlttled freq &amp;gt;= req freq?" style="rhombus;whiteSpace=wrap;html=1;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="409" y="652" width="115" height="103" as="geometry" />
@@ -68,7 +68,7 @@
           <mxGeometry x="150" y="545" width="90" height="40" as="geometry" />
         </mxCell>
         <mxCell id="YY0MY4p-X_AZBxPH40uB-35" value="N" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=16;" parent="1" vertex="1">
-          <mxGeometry x="374" y="676" width="60" height="30" as="geometry" />
+          <mxGeometry x="363" y="680" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YY0MY4p-X_AZBxPH40uB-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.502;entryY=-0.082;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="YY0MY4p-X_AZBxPH40uB-33" target="YY0MY4p-X_AZBxPH40uB-22" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -96,6 +96,12 @@
         </mxCell>
         <mxCell id="YY0MY4p-X_AZBxPH40uB-60" value="APCPU软件（kernel）" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=1;fontSize=13;fontColor=#FFFF66;" parent="1" vertex="1">
           <mxGeometry x="225.5" y="408" width="97" height="31" as="geometry" />
+        </mxCell>
+        <mxCell id="dvzESr8WYS7K-upXrV9c-1" value="通知调度器cpu的thermal压力" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="282.5" y="685" width="89" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="dvzESr8WYS7K-upXrV9c-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.493;entryY=0.925;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="dvzESr8WYS7K-upXrV9c-1" target="YY0MY4p-X_AZBxPH40uB-22">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
