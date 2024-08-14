@@ -43,8 +43,8 @@
         <mxCell id="Uxwp7VMzm1LvapmY-Hm1-14" value="thermal ctl&amp;nbsp;一轮" style="rounded=1;whiteSpace=wrap;html=1;fontSize=15;fontStyle=1" vertex="1" parent="1">
           <mxGeometry x="470" y="290" width="120" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="Uxwp7VMzm1LvapmY-Hm1-15" value="现在时钟是32k,一个cycle是30.5us，mon_period配置是16个cycle，每个sensor采10次，取平均，N5是8个sensor，det_period是64ms；所以温度更新一次的时间是：((16+45)*10 + 16*(10-1))*8*30.5 = &lt;b&gt;184ms&lt;/b&gt;；再加上det_period的64ms，也就是说采样间隔超过&lt;b&gt;250ms&lt;/b&gt;才会真正的更新温度" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="160" y="440" width="780" height="30" as="geometry" />
+        <mxCell id="Uxwp7VMzm1LvapmY-Hm1-15" value="现在时钟是32k,一个cycle是30.5us，mon_period配置是16个cycle，每个sensor采10次，取平均，N5是8个sensor，det_period是64ms；所以温度更新一次的时间是：((16+45)*10 + 16*(10-1))*8*30.5 = &lt;b&gt;184ms&lt;/b&gt;；再加上det_period的64ms，也就是说采样间隔超过&lt;b&gt;250ms&lt;/b&gt;才会真正的采样到温度变化" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="160" y="440" width="800" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
